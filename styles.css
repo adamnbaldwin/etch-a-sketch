@@ -1,0 +1,19 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 800px;
+    width: 850px;
+}
+
+.moo {
+    height: 50px;
+    width: 50px;
+    outline: 2px solid;
+    background-color: red;
+    box-sizing: border-box;
+    flex-basis: 5.8842%;
+    
+}
