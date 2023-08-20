@@ -1,18 +1,22 @@
 #container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     padding-top: 20px;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 20px;
     height: 800px;
-    width: 850px;
+    width: 800px;
 }
 
 #columns {
-    display: flex;
+    flex: 1;
     flex-direction: column;
-    flex-wrap: wrap;
+    
+}
+
+#rows {
+    flex: 1;
+    flex-direction: row;
 }
     
 .moo {
@@ -23,6 +27,3 @@
     flex-basis: 5%; 
 }
 
-#moo3 {
-    background-color: green;
-}
